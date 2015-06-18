@@ -13,7 +13,7 @@ class BackTableVC: UITableViewController {
     var tableArray = [String]()
     
     override func viewDidLoad() {
-        tableArray = ["aaaa", "aaa", "aa"]
+        tableArray = ["four people", "six people", "eight people"]
         
     }
     

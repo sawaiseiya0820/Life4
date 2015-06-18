@@ -10,8 +10,15 @@ import Foundation
 
 
 class Hello: UIViewController {
+    
+    @IBOutlet weak var image: UIImageView!
+    
+    
+    
+    
     override func viewDidLoad() {
         
+        self.image.alpha = 0.6
         self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
         
         
