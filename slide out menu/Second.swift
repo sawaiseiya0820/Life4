@@ -11,5 +11,21 @@ import Foundation
 class Second: UIViewController {
     override func viewDidLoad() {
         
-        self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
-    }}
+           self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
+        
+            
+        
+   
+    
+    
+    
+    
+    
+    
+    }
+
+
+
+
+
+}

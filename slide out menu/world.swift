@@ -6,6 +6,7 @@
 //  Copyright (c) 2015 Ryosuke Fukuda. All rights reserved.
 //
 
+import Foundation
 
 
 class world: UIViewController {
