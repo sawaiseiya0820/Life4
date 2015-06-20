@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B77CA25D1B32CE990066F219 /* Hello2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77CA25C1B32CE990066F219 /* Hello2.swift */; };
 		B77CA25F1B32D30D0066F219 /* Hello3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77CA25E1B32D30D0066F219 /* Hello3.swift */; };
+		B7AA0C8A1B35298F00FC48ED /* Hello4.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AA0C891B35298F00FC48ED /* Hello4.swift */; };
 		B7ECE7301B33065600483B65 /* Long-party-table-with-neon-napkins.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7ECE72F1B33065600483B65 /* Long-party-table-with-neon-napkins.jpg */; };
 		DBE178E11B10EAC500A50805 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE178E01B10EAC500A50805 /* AppDelegate.swift */; };
 		DBE178E31B10EAC500A50805 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE178E21B10EAC500A50805 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* Begin PBXFileReference section */
 		B77CA25C1B32CE990066F219 /* Hello2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hello2.swift; sourceTree = "<group>"; };
 		B77CA25E1B32D30D0066F219 /* Hello3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hello3.swift; sourceTree = "<group>"; };
+		B7AA0C891B35298F00FC48ED /* Hello4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hello4.swift; sourceTree = "<group>"; };
 		B7ECE72F1B33065600483B65 /* Long-party-table-with-neon-napkins.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Long-party-table-with-neon-napkins.jpg"; sourceTree = "<group>"; };
 		DBE178DB1B10EAC500A50805 /* slide out menu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "slide out menu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBE178DF1B10EAC500A50805 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				DBE178E41B10EAC500A50805 /* Main.storyboard */,
 				B77CA25C1B32CE990066F219 /* Hello2.swift */,
 				B77CA25E1B32D30D0066F219 /* Hello3.swift */,
+				B7AA0C891B35298F00FC48ED /* Hello4.swift */,
 				DBE1790A1B1181D700A50805 /* world.swift */,
 				DBE179081B11819E00A50805 /* Second.swift */,
 				DBE179061B11813500A50805 /* Hello.swift */,
@@ -250,6 +253,7 @@
 				B77CA25D1B32CE990066F219 /* Hello2.swift in Sources */,
 				DBE179031B10EBC700A50805 /* SWRevealViewController.m in Sources */,
 				DBE179091B11819E00A50805 /* Second.swift in Sources */,
+				B7AA0C8A1B35298F00FC48ED /* Hello4.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

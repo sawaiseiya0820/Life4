@@ -8,37 +8,53 @@
 
 import Foundation
 import UIKit
+
 var number: Int = 0
+
+ var Array = [String]()
+
 class Hello2: UIViewController {
+
     @IBOutlet weak var text1: UITextField!
     @IBOutlet weak var text2: UITextField!
     @IBOutlet weak var text3: UITextField!
     @IBOutlet weak var text4: UITextField!
-    
-    
-    
+
+   
     
     override func viewDidLoad() {
+        
+        
+        
+        
+        
+        
+        
         
         self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
     }
 
     
     @IBAction func saveButton(sender:AnyObject){
+       
         
-//    let userDefaults = NSUserDefaults.standardUserDefaults()
-//    userDefaults.setObject(text1.text, forKey: "saveText")
+        
+        var first = text1.text
+        var second = text2.text
+        var third = text3.text
+        var four = text4.text
+        
+        Array.append(first)
+        Array.append(second)
+        Array.append(third)
+        Array.append(four)
+
+        
+        self.performSegueWithIdentifier("hey", sender: self)
     
     }
     
-    
-    
-    
-    
-    
-    @IBAction  func next1(){
-    
-    }
+
 
 
     
