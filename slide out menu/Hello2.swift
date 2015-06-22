@@ -11,7 +11,7 @@ import UIKit
 
 var number: Int = 0
 
- var Array = [String]()
+var  Array:[String] = []
 
 class Hello2: UIViewController {
 
@@ -20,6 +20,7 @@ class Hello2: UIViewController {
     @IBOutlet weak var text3: UITextField!
     @IBOutlet weak var text4: UITextField!
 
+    
    
     
     override func viewDidLoad() {
@@ -48,11 +49,32 @@ class Hello2: UIViewController {
         Array.append(second)
         Array.append(third)
         Array.append(four)
-
+        
+        Array.shuffle(4)
+     
         
         self.performSegueWithIdentifier("hey", sender: self)
     
     }
+    
+    @IBAction func change1(sender: AnyObject) {
+        if sender.on{
+            number = 1
+            
+        }else {
+            sender.off= 2
+        }
+        
+    }
+    
+        
+        
+        
+        
+    }
+  
+    
+        
     
 
 

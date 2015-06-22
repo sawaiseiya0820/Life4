@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B74E7B251B35F3D0003A5EC8 /* Hello9.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74E7B241B35F3D0003A5EC8 /* Hello9.swift */; };
+		B76E8BDB1B354EB300D77AE0 /* Hello5.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76E8BDA1B354EB300D77AE0 /* Hello5.swift */; };
+		B76E8BDD1B35508500D77AE0 /* Hello6.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76E8BDC1B35508500D77AE0 /* Hello6.swift */; };
+		B76E8BDF1B3551A000D77AE0 /* Hello7.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76E8BDE1B3551A000D77AE0 /* Hello7.swift */; };
+		B76E8BE11B3559DA00D77AE0 /* ExtensionArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76E8BE01B3559DA00D77AE0 /* ExtensionArray.swift */; };
+		B76E8BE31B35C21F00D77AE0 /* Hello8.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76E8BE21B35C21F00D77AE0 /* Hello8.swift */; };
 		B77CA25D1B32CE990066F219 /* Hello2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77CA25C1B32CE990066F219 /* Hello2.swift */; };
 		B77CA25F1B32D30D0066F219 /* Hello3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77CA25E1B32D30D0066F219 /* Hello3.swift */; };
 		B7AA0C8A1B35298F00FC48ED /* Hello4.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AA0C891B35298F00FC48ED /* Hello4.swift */; };
@@ -35,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B74E7B241B35F3D0003A5EC8 /* Hello9.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hello9.swift; sourceTree = "<group>"; };
+		B76E8BDA1B354EB300D77AE0 /* Hello5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Hello5.swift; path = ../Hello5.swift; sourceTree = "<group>"; };
+		B76E8BDC1B35508500D77AE0 /* Hello6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hello6.swift; sourceTree = "<group>"; };
+		B76E8BDE1B3551A000D77AE0 /* Hello7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hello7.swift; sourceTree = "<group>"; };
+		B76E8BE01B3559DA00D77AE0 /* ExtensionArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionArray.swift; sourceTree = "<group>"; };
+		B76E8BE21B35C21F00D77AE0 /* Hello8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hello8.swift; sourceTree = "<group>"; };
 		B77CA25C1B32CE990066F219 /* Hello2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hello2.swift; sourceTree = "<group>"; };
 		B77CA25E1B32D30D0066F219 /* Hello3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hello3.swift; sourceTree = "<group>"; };
 		B7AA0C891B35298F00FC48ED /* Hello4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hello4.swift; sourceTree = "<group>"; };
@@ -98,12 +110,18 @@
 			isa = PBXGroup;
 			children = (
 				DBE178E01B10EAC500A50805 /* AppDelegate.swift */,
+				B76E8BE01B3559DA00D77AE0 /* ExtensionArray.swift */,
 				DBE178E21B10EAC500A50805 /* ViewController.swift */,
 				DBE179041B10EE3A00A50805 /* BackTableVC.swift */,
 				DBE178E41B10EAC500A50805 /* Main.storyboard */,
 				B77CA25C1B32CE990066F219 /* Hello2.swift */,
 				B77CA25E1B32D30D0066F219 /* Hello3.swift */,
 				B7AA0C891B35298F00FC48ED /* Hello4.swift */,
+				B76E8BDA1B354EB300D77AE0 /* Hello5.swift */,
+				B76E8BDC1B35508500D77AE0 /* Hello6.swift */,
+				B76E8BDE1B3551A000D77AE0 /* Hello7.swift */,
+				B76E8BE21B35C21F00D77AE0 /* Hello8.swift */,
+				B74E7B241B35F3D0003A5EC8 /* Hello9.swift */,
 				DBE1790A1B1181D700A50805 /* world.swift */,
 				DBE179081B11819E00A50805 /* Second.swift */,
 				DBE179061B11813500A50805 /* Hello.swift */,
@@ -245,14 +263,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBE178E31B10EAC500A50805 /* ViewController.swift in Sources */,
+				B76E8BDD1B35508500D77AE0 /* Hello6.swift in Sources */,
 				B77CA25F1B32D30D0066F219 /* Hello3.swift in Sources */,
 				DBE1790B1B1181D700A50805 /* world.swift in Sources */,
+				B74E7B251B35F3D0003A5EC8 /* Hello9.swift in Sources */,
+				B76E8BE31B35C21F00D77AE0 /* Hello8.swift in Sources */,
 				DBE178E11B10EAC500A50805 /* AppDelegate.swift in Sources */,
+				B76E8BE11B3559DA00D77AE0 /* ExtensionArray.swift in Sources */,
 				DBE179051B10EE3A00A50805 /* BackTableVC.swift in Sources */,
+				B76E8BDF1B3551A000D77AE0 /* Hello7.swift in Sources */,
 				DBE179071B11813500A50805 /* Hello.swift in Sources */,
 				B77CA25D1B32CE990066F219 /* Hello2.swift in Sources */,
 				DBE179031B10EBC700A50805 /* SWRevealViewController.m in Sources */,
 				DBE179091B11819E00A50805 /* Second.swift in Sources */,
+				B76E8BDB1B354EB300D77AE0 /* Hello5.swift in Sources */,
 				B7AA0C8A1B35298F00FC48ED /* Hello4.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
