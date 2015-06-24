@@ -21,6 +21,9 @@ class Hello2: UIViewController {
     @IBOutlet weak var text4: UITextField!
 
     
+    
+    
+    
    
     
     override func viewDidLoad() {
@@ -57,12 +60,13 @@ class Hello2: UIViewController {
     
     }
     
-    @IBAction func change1(sender: AnyObject) {
+    @IBAction func change1(sender: UISwitch) {
         if sender.on{
             number = 1
-            
-        }else {
-            sender.off= 2
+            println("hey1")
+        }else  {
+            number = 2
+           println("hey2")
         }
         
     }
@@ -71,7 +75,7 @@ class Hello2: UIViewController {
         
         
         
-    }
+    
   
     
         

@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B70045271B380E0200146FD0 /* Hello10.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70045261B380E0200146FD0 /* Hello10.swift */; };
+		B70045291B38196200146FD0 /* Hello11.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70045281B38196200146FD0 /* Hello11.swift */; };
+		B748C7471B3AFBC300C62729 /* MasterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B748C7461B3AFBC300C62729 /* MasterTableViewController.swift */; };
+		B748C7491B3AFBE800C62729 /* addViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B748C7481B3AFBE800C62729 /* addViewController.swift */; };
+		B748C74B1B3AFC0500C62729 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B748C74A1B3AFC0500C62729 /* DetailViewController.swift */; };
 		B74E7B251B35F3D0003A5EC8 /* Hello9.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74E7B241B35F3D0003A5EC8 /* Hello9.swift */; };
 		B76E8BDB1B354EB300D77AE0 /* Hello5.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76E8BDA1B354EB300D77AE0 /* Hello5.swift */; };
 		B76E8BDD1B35508500D77AE0 /* Hello6.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76E8BDC1B35508500D77AE0 /* Hello6.swift */; };
@@ -16,6 +21,7 @@
 		B77CA25D1B32CE990066F219 /* Hello2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77CA25C1B32CE990066F219 /* Hello2.swift */; };
 		B77CA25F1B32D30D0066F219 /* Hello3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77CA25E1B32D30D0066F219 /* Hello3.swift */; };
 		B7AA0C8A1B35298F00FC48ED /* Hello4.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AA0C891B35298F00FC48ED /* Hello4.swift */; };
+		B7C14FEC1B383CEF00124665 /* Hello12.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C14FEB1B383CEF00124665 /* Hello12.swift */; };
 		B7ECE7301B33065600483B65 /* Long-party-table-with-neon-napkins.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7ECE72F1B33065600483B65 /* Long-party-table-with-neon-napkins.jpg */; };
 		DBE178E11B10EAC500A50805 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE178E01B10EAC500A50805 /* AppDelegate.swift */; };
 		DBE178E31B10EAC500A50805 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE178E21B10EAC500A50805 /* ViewController.swift */; };
@@ -41,6 +47,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B70045261B380E0200146FD0 /* Hello10.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hello10.swift; sourceTree = "<group>"; };
+		B70045281B38196200146FD0 /* Hello11.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hello11.swift; sourceTree = "<group>"; };
+		B748C7461B3AFBC300C62729 /* MasterTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterTableViewController.swift; sourceTree = "<group>"; };
+		B748C7481B3AFBE800C62729 /* addViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addViewController.swift; sourceTree = "<group>"; };
+		B748C74A1B3AFC0500C62729 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		B74E7B241B35F3D0003A5EC8 /* Hello9.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hello9.swift; sourceTree = "<group>"; };
 		B76E8BDA1B354EB300D77AE0 /* Hello5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Hello5.swift; path = ../Hello5.swift; sourceTree = "<group>"; };
 		B76E8BDC1B35508500D77AE0 /* Hello6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hello6.swift; sourceTree = "<group>"; };
@@ -50,6 +61,7 @@
 		B77CA25C1B32CE990066F219 /* Hello2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hello2.swift; sourceTree = "<group>"; };
 		B77CA25E1B32D30D0066F219 /* Hello3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hello3.swift; sourceTree = "<group>"; };
 		B7AA0C891B35298F00FC48ED /* Hello4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hello4.swift; sourceTree = "<group>"; };
+		B7C14FEB1B383CEF00124665 /* Hello12.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hello12.swift; sourceTree = "<group>"; };
 		B7ECE72F1B33065600483B65 /* Long-party-table-with-neon-napkins.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Long-party-table-with-neon-napkins.jpg"; sourceTree = "<group>"; };
 		DBE178DB1B10EAC500A50805 /* slide out menu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "slide out menu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBE178DF1B10EAC500A50805 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -114,6 +126,10 @@
 				DBE178E21B10EAC500A50805 /* ViewController.swift */,
 				DBE179041B10EE3A00A50805 /* BackTableVC.swift */,
 				DBE178E41B10EAC500A50805 /* Main.storyboard */,
+				B748C7481B3AFBE800C62729 /* addViewController.swift */,
+				B748C74A1B3AFC0500C62729 /* DetailViewController.swift */,
+				B748C7461B3AFBC300C62729 /* MasterTableViewController.swift */,
+				DBE179061B11813500A50805 /* Hello.swift */,
 				B77CA25C1B32CE990066F219 /* Hello2.swift */,
 				B77CA25E1B32D30D0066F219 /* Hello3.swift */,
 				B7AA0C891B35298F00FC48ED /* Hello4.swift */,
@@ -122,9 +138,11 @@
 				B76E8BDE1B3551A000D77AE0 /* Hello7.swift */,
 				B76E8BE21B35C21F00D77AE0 /* Hello8.swift */,
 				B74E7B241B35F3D0003A5EC8 /* Hello9.swift */,
+				B70045261B380E0200146FD0 /* Hello10.swift */,
+				B70045281B38196200146FD0 /* Hello11.swift */,
+				B7C14FEB1B383CEF00124665 /* Hello12.swift */,
 				DBE1790A1B1181D700A50805 /* world.swift */,
 				DBE179081B11819E00A50805 /* Second.swift */,
-				DBE179061B11813500A50805 /* Hello.swift */,
 				DBE178E71B10EAC500A50805 /* Images.xcassets */,
 				B7ECE72F1B33065600483B65 /* Long-party-table-with-neon-napkins.jpg */,
 				DBE178E91B10EAC500A50805 /* LaunchScreen.xib */,
@@ -262,17 +280,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B70045271B380E0200146FD0 /* Hello10.swift in Sources */,
 				DBE178E31B10EAC500A50805 /* ViewController.swift in Sources */,
 				B76E8BDD1B35508500D77AE0 /* Hello6.swift in Sources */,
 				B77CA25F1B32D30D0066F219 /* Hello3.swift in Sources */,
+				B7C14FEC1B383CEF00124665 /* Hello12.swift in Sources */,
 				DBE1790B1B1181D700A50805 /* world.swift in Sources */,
 				B74E7B251B35F3D0003A5EC8 /* Hello9.swift in Sources */,
+				B748C7491B3AFBE800C62729 /* addViewController.swift in Sources */,
 				B76E8BE31B35C21F00D77AE0 /* Hello8.swift in Sources */,
 				DBE178E11B10EAC500A50805 /* AppDelegate.swift in Sources */,
 				B76E8BE11B3559DA00D77AE0 /* ExtensionArray.swift in Sources */,
+				B748C74B1B3AFC0500C62729 /* DetailViewController.swift in Sources */,
 				DBE179051B10EE3A00A50805 /* BackTableVC.swift in Sources */,
 				B76E8BDF1B3551A000D77AE0 /* Hello7.swift in Sources */,
 				DBE179071B11813500A50805 /* Hello.swift in Sources */,
+				B748C7471B3AFBC300C62729 /* MasterTableViewController.swift in Sources */,
+				B70045291B38196200146FD0 /* Hello11.swift in Sources */,
 				B77CA25D1B32CE990066F219 /* Hello2.swift in Sources */,
 				DBE179031B10EBC700A50805 /* SWRevealViewController.m in Sources */,
 				DBE179091B11819E00A50805 /* Second.swift in Sources */,
