@@ -3,17 +3,13 @@
 //  slide out menu
 //
 //  Created by 澤井聖也 on 2015/06/24.
-//  Copyright (c) 2015年 Ryosuke Fukuda. All rights reserved.
-//
 
 import UIKit
 
 class addViewController: UIViewController {
     
     @IBOutlet weak var titleTextField: UITextField? = UITextField()
-  
     @IBOutlet weak var notesTextView: UITextView? = UITextView()
-    
     
     
     required init(coder aDecoder: NSCoder){
@@ -56,10 +52,11 @@ class addViewController: UIViewController {
                 
                 newMutableList.addObject(dict as! NSDictionary)
             }
-            
-            
+            userDefaults.removeObjectForKey("itemList")
             newMutableList.addObject(dateSet)
             userDefaults.setObject(newMutableList, forKey: "itemList")
+//          newMutableList.addObject(dateSet)
+//            userDefaults.setObject(newMutableList, forKey: "itemList")
             
         }else{
             

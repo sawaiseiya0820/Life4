@@ -469,7 +469,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="oyQ-DK-FMK" kind="push" id="Hml-7m-G7G"/>
+                                    <segue destination="oyQ-DK-FMK" kind="push" identifier="showDetail" id="Hml-7m-G7G"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -481,7 +481,7 @@
                     <navigationItem key="navigationItem" id="1Ur-cI-Aod">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="Po9-Ag-TWg">
                             <connections>
-                                <segue destination="xtu-bM-7BG" kind="push" id="uRJ-3g-O4C"/>
+                                <segue destination="xtu-bM-7BG" kind="push" identifier="showAddVC" id="uRJ-3g-O4C"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -538,7 +538,7 @@
                     </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
-                        <outlet property="notesTextView" destination="8bg-l6-XEk" id="6IE-OA-Krp"/>
+                        <outlet property="notesTextView" destination="8bg-l6-XEk" id="1R2-Ya-ZIP"/>
                         <outlet property="titleTextField" destination="bt0-fY-sfP" id="gAS-0r-zq9"/>
                     </connections>
                 </viewController>
@@ -585,9 +585,17 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="bM6-Y8-JXf">
-                        <barButtonItem key="rightBarButtonItem" systemItem="trash" id="m6o-ih-QEe"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="trash" id="m6o-ih-QEe">
+                            <connections>
+                                <action selector="deleteItem:" destination="oyQ-DK-FMK" id="amz-Bk-1Pq"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="notesTextView" destination="3Fw-Mu-YPF" id="OoW-6i-AvS"/>
+                        <outlet property="titleTextField" destination="qj9-ZV-2LN" id="SmJ-0i-zli"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NKa-Gf-If0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -3,44 +3,85 @@
 //  slide out menu
 //
 //  Created by 澤井聖也 on 2015/06/24.
-//  Copyright (c) 2015年 Ryosuke Fukuda. All rights reserved.
-//
 
 import UIKit
 
 class DetailViewController: UIViewController {
 
+    @IBOutlet weak var titleTextField: UITextField? = UITextField()
+    @IBOutlet weak var notesTextView: UITextView? = UITextView()
+    
+    var toDoData:NSDictionary = NSDictionary()
     
     
-    
-    
-    required init(coder aDecoder: NSCoder!){
+    required init(coder aDecoder: NSCoder){
         
         super.init(coder: aDecoder)
     }
     
-    
-    
-    
-    
-    
-    override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {
-        super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
-    }
+//    
+//    override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {
+//        super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
+//    }
     
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+       
+        titleTextField!.userInteractionEnabled = false
+        notesTextView!.userInteractionEnabled = false
+        
+        
+        titleTextField!.text = toDoData.objectForKey("itemTitel") as? String
+        notesTextView!.text = toDoData.objectForKey("itemNote") as? String
+        
+        
+        
     }
 
-    override func didReceiveMemoryWarning() {
+//    @IBAction func deleteItem(sender: AnyObject) {
+//        
+//        var userDefaults:NSMutableArray = NSUserDefaults.standardUserDefaults()
+//        var itemListArray:NSMutableArray =  userDefaults.objectForkey("itemList") as! NSMutableArray
+//        var mutableItemList: NSMutableArray = NSMutableArray()
+//        
+//        for dict: AnyObject in itemListArray{
+//            mutableItemList.addObject(dict as! NSDictionary)
+//        }
+//        
+//        
+//        
+//        
+    
+//}
+    
+     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+    @IBAction func deleteItem(sender: AnyObject) {
+        
+        var userDefaults: NSUserDefaults = NSUserDefaults.standardUserDefaults()
+        var itemListArray: NSMutableArray = userDefaults.objectForKey("itemList") as! NSMutableArray
+        var mutableItemList: NSMutableArray = NSMutableArray()
+        
+        for dict: AnyObject in itemListArray{
+            mutableItemList.addObject(dict as! NSDictionary)
+            
+        }
+        
+        mutableItemList.removeObject(toDoData)
+        
+        userDefaults.removeObjectForKey("itemList")
+        userDefaults.setObject(mutableItemList, forKey: "itemList")
+        userDefaults.synchronize()
+        
+        self.navigationController?.popToRootViewControllerAnimated(true)
+        
+        
+    }
 
     /*
     // MARK: - Navigation

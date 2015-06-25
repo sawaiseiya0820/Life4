@@ -3,8 +3,6 @@
 //  slide out menu
 //
 //  Created by 澤井聖也 on 2015/06/24.
-//  Copyright (c) 2015年 Ryosuke Fukuda. All rights reserved.
-//
 
 import UIKit
 
@@ -19,12 +17,12 @@ class MasterTableViewController: UITableViewController {
         super.init(coder: aDecoder)
     }
     
-    override init(style: UITableViewStyle){
-        super.init(style: style)
-        
-        
-    }
-    
+//    override init(style: UITableViewStyle){
+//        super.init(style: style)
+//        
+//        
+//    }
+//    
     
     
     
@@ -40,9 +38,12 @@ class MasterTableViewController: UITableViewController {
     override func viewDidAppear(animated: Bool) {
         
         var userDefaults:NSUserDefaults = NSUserDefaults.standardUserDefaults()
+       
         var itemListFromUserDefaults:NSMutableArray? = userDefaults.objectForKey("itemList") as? NSMutableArray
         
         if ((itemListFromUserDefaults) != nil){
+            
+            
             toDoitems = itemListFromUserDefaults!
         }
         
@@ -53,16 +54,16 @@ class MasterTableViewController: UITableViewController {
     
     
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
-    }
-
+//    override func viewDidLoad() {
+//        super.viewDidLoad()
+//
+//        // Uncomment the following line to preserve selection between presentations
+//        // self.clearsSelectionOnViewWillAppear = false
+//
+//        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
+//        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
+//    }
+//
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -71,9 +72,7 @@ class MasterTableViewController: UITableViewController {
     // MARK: - Table view data source
 
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        // #warning Potentially incomplete method implementation.
-        // Return the number of sections.
-        return 1
+                return 1
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -127,14 +126,33 @@ class MasterTableViewController: UITableViewController {
     }
     */
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using [segue destinationViewController].
-        // Pass the selected object to the new view controller.
+           
+    
+    
+    
+        if (segue.identifier == "showDetail"){
+            var selectedIndexPath: NSIndexPath = self.tableView.indexPathForSelectedRow()!
+            var detailViewController: DetailViewController = segue.destinationViewController as! DetailViewController
+            detailViewController.toDoData = toDoitems.objectAtIndex(selectedIndexPath.row) as! NSDictionary
+            
+        }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     }
-    */
+    
 
 }
