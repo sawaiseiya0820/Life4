@@ -21,6 +21,14 @@ class Hello10: UIViewController {
     @IBOutlet weak var label58: UILabel!
     
     
+    @IBOutlet weak var app51: UILabel!
+    @IBOutlet weak var app52: UILabel!
+    @IBOutlet weak var app53: UILabel!
+    @IBOutlet weak var app54: UILabel!
+    @IBOutlet weak var app55: UILabel!
+    @IBOutlet weak var app56: UILabel!
+    @IBOutlet weak var app57: UILabel!
+    @IBOutlet weak var app58: UILabel!
     
     
     override func viewDidLoad() {
@@ -55,5 +63,20 @@ class Hello10: UIViewController {
         
         
         
+        
     }
-}
+    @IBAction func rollset5(sender: AnyObject) {
+    
+    Array2.shuffle(Array.count)
+        app51.text = Array2[0]
+        app52.text = Array2[1]
+        app53.text = Array2[2]
+        app54.text = Array2[3]
+        app55.text = Array2[4]
+        app56.text = Array2[5]
+        app57.text = Array2[6]
+        app58.text = Array2[7]
+
+    
+    }
+}         

@@ -23,6 +23,17 @@ class Hello11: UIViewController {
    
     
     
+    
+    @IBOutlet weak var app31: UILabel!
+    @IBOutlet weak var app32: UILabel!
+    @IBOutlet weak var app33: UILabel!
+    @IBOutlet weak var app34: UILabel!
+    @IBOutlet weak var app35: UILabel!
+    @IBOutlet weak var app36: UILabel!
+    
+    
+    
+    
     override func viewDidLoad() {
         
             }
@@ -30,12 +41,7 @@ class Hello11: UIViewController {
     @IBAction func setButton3(sender: AnyObject) {
         
         
-        var random31: Int
-        var random32: Int
-        var random33: Int
-        var random34: Int
-        var random35: Int
-        var random36: Int
+       
        
         
         
@@ -50,4 +56,29 @@ class Hello11: UIViewController {
         
         
     }
+
+
+
+    @IBAction func rollset3(sender: AnyObject) {
+        
+        Array2.shuffle(Array.count)
+        app31.text = Array2[0]
+        app32.text = Array2[1]
+        app33.text = Array2[2]
+        app34.text = Array2[3]
+        app35.text = Array2[4]
+        app36.text = Array2[5]
+       
+        
+        
+        
+    }
+
+
+
+
+
 }
+
+
+

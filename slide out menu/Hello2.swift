@@ -12,7 +12,7 @@ import UIKit
 var number: Int = 0
 
 var  Array:[String] = []
-
+var  Array2:[String] = []
 class Hello2: UIViewController {
 
     @IBOutlet weak var text1: UITextField!
