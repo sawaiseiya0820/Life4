@@ -12,6 +12,24 @@
 		B731A8A11B3BC19000457636 /* 121722.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B731A8A01B3BC19000457636 /* 121722.jpg */; };
 		B731A8A31B3BC47E00457636 /* human.png in Resources */ = {isa = PBXBuildFile; fileRef = B731A8A21B3BC47E00457636 /* human.png */; };
 		B731A8A51B3BC49B00457636 /* wpid-Kpieb1m.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B731A8A41B3BC49B00457636 /* wpid-Kpieb1m.jpg */; };
+		B73AA32C1B3F043800ABB1B4 /* figure_talking.png in Resources */ = {isa = PBXBuildFile; fileRef = B73AA32B1B3F043800ABB1B4 /* figure_talking.png */; };
+		B73AA32E1B3F076E00ABB1B4 /* images.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B73AA32D1B3F076E00ABB1B4 /* images.jpg */; };
+		B73AA3301B3F0DEB00ABB1B4 /* nextinnovation_20120904.png in Resources */ = {isa = PBXBuildFile; fileRef = B73AA32F1B3F0DEB00ABB1B4 /* nextinnovation_20120904.png */; };
+		B73AA3321B3FBBFF00ABB1B4 /* Hello14.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73AA3311B3FBBFF00ABB1B4 /* Hello14.swift */; };
+		B73AA3341B3FBF9400ABB1B4 /* Hello15.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73AA3331B3FBF9400ABB1B4 /* Hello15.swift */; };
+		B73AA3361B3FD54A00ABB1B4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B73AA3351B3FD54A00ABB1B4 /* AudioToolbox.framework */; };
+		B73AA3381B3FD55400ABB1B4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B73AA3371B3FD55400ABB1B4 /* CFNetwork.framework */; };
+		B73AA33A1B3FD56100ABB1B4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B73AA3391B3FD56100ABB1B4 /* CoreGraphics.framework */; };
+		B73AA33C1B3FD57100ABB1B4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B73AA33B1B3FD57100ABB1B4 /* CoreLocation.framework */; };
+		B73AA33E1B3FD58200ABB1B4 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B73AA33D1B3FD58200ABB1B4 /* MobileCoreServices.framework */; };
+		B73AA3401B3FD59300ABB1B4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B73AA33F1B3FD59300ABB1B4 /* QuartzCore.framework */; };
+		B73AA3421B3FD5A200ABB1B4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B73AA3411B3FD5A200ABB1B4 /* Security.framework */; };
+		B73AA3441B3FD5B200ABB1B4 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B73AA3431B3FD5B200ABB1B4 /* StoreKit.framework */; };
+		B73AA3461B3FD5BF00ABB1B4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B73AA3451B3FD5BF00ABB1B4 /* SystemConfiguration.framework */; };
+		B73AA3481B3FD5DE00ABB1B4 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B73AA3471B3FD5DE00ABB1B4 /* libz.dylib */; };
+		B73AA34A1B3FD5F900ABB1B4 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B73AA3491B3FD5F900ABB1B4 /* libsqlite3.dylib */; };
+		B73AA34C1B3FD6E400ABB1B4 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B73AA34B1B3FD6E400ABB1B4 /* Parse.framework */; };
+		B73AA34F1B3FD86300ABB1B4 /* File.m in Sources */ = {isa = PBXBuildFile; fileRef = B73AA34E1B3FD86300ABB1B4 /* File.m */; };
 		B73C9DFA1B3BF3D2004231A9 /* Hello13.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73C9DF91B3BF3D2004231A9 /* Hello13.swift */; };
 		B748C7471B3AFBC300C62729 /* MasterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B748C7461B3AFBC300C62729 /* MasterTableViewController.swift */; };
 		B748C7491B3AFBE800C62729 /* addViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B748C7481B3AFBE800C62729 /* addViewController.swift */; };
@@ -56,6 +74,24 @@
 		B731A8A01B3BC19000457636 /* 121722.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 121722.jpg; sourceTree = "<group>"; };
 		B731A8A21B3BC47E00457636 /* human.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = human.png; sourceTree = "<group>"; };
 		B731A8A41B3BC49B00457636 /* wpid-Kpieb1m.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wpid-Kpieb1m.jpg"; sourceTree = "<group>"; };
+		B73AA32B1B3F043800ABB1B4 /* figure_talking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = figure_talking.png; sourceTree = "<group>"; };
+		B73AA32D1B3F076E00ABB1B4 /* images.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpg; sourceTree = "<group>"; };
+		B73AA32F1B3F0DEB00ABB1B4 /* nextinnovation_20120904.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nextinnovation_20120904.png; sourceTree = "<group>"; };
+		B73AA3311B3FBBFF00ABB1B4 /* Hello14.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hello14.swift; sourceTree = "<group>"; };
+		B73AA3331B3FBF9400ABB1B4 /* Hello15.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hello15.swift; sourceTree = "<group>"; };
+		B73AA3351B3FD54A00ABB1B4 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B73AA3371B3FD55400ABB1B4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		B73AA3391B3FD56100ABB1B4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B73AA33B1B3FD57100ABB1B4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B73AA33D1B3FD58200ABB1B4 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		B73AA33F1B3FD59300ABB1B4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B73AA3411B3FD5A200ABB1B4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B73AA3431B3FD5B200ABB1B4 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		B73AA3451B3FD5BF00ABB1B4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B73AA3471B3FD5DE00ABB1B4 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		B73AA3491B3FD5F900ABB1B4 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		B73AA34B1B3FD6E400ABB1B4 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		B73AA34E1B3FD86300ABB1B4 /* File.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = File.m; sourceTree = "<group>"; };
 		B73C9DF91B3BF3D2004231A9 /* Hello13.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hello13.swift; sourceTree = "<group>"; };
 		B748C7461B3AFBC300C62729 /* MasterTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterTableViewController.swift; sourceTree = "<group>"; };
 		B748C7481B3AFBE800C62729 /* addViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addViewController.swift; sourceTree = "<group>"; };
@@ -95,6 +131,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B73AA34A1B3FD5F900ABB1B4 /* libsqlite3.dylib in Frameworks */,
+				B73AA3481B3FD5DE00ABB1B4 /* libz.dylib in Frameworks */,
+				B73AA3461B3FD5BF00ABB1B4 /* SystemConfiguration.framework in Frameworks */,
+				B73AA3441B3FD5B200ABB1B4 /* StoreKit.framework in Frameworks */,
+				B73AA3421B3FD5A200ABB1B4 /* Security.framework in Frameworks */,
+				B73AA3401B3FD59300ABB1B4 /* QuartzCore.framework in Frameworks */,
+				B73AA33E1B3FD58200ABB1B4 /* MobileCoreServices.framework in Frameworks */,
+				B73AA33C1B3FD57100ABB1B4 /* CoreLocation.framework in Frameworks */,
+				B73AA33A1B3FD56100ABB1B4 /* CoreGraphics.framework in Frameworks */,
+				B73AA3381B3FD55400ABB1B4 /* CFNetwork.framework in Frameworks */,
+				B73AA34C1B3FD6E400ABB1B4 /* Parse.framework in Frameworks */,
+				B73AA3361B3FD54A00ABB1B4 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,9 +156,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B73AA34D1B3FD72700ABB1B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B73AA34B1B3FD6E400ABB1B4 /* Parse.framework */,
+				B73AA3491B3FD5F900ABB1B4 /* libsqlite3.dylib */,
+				B73AA3471B3FD5DE00ABB1B4 /* libz.dylib */,
+				B73AA3451B3FD5BF00ABB1B4 /* SystemConfiguration.framework */,
+				B73AA3431B3FD5B200ABB1B4 /* StoreKit.framework */,
+				B73AA3411B3FD5A200ABB1B4 /* Security.framework */,
+				B73AA33F1B3FD59300ABB1B4 /* QuartzCore.framework */,
+				B73AA33D1B3FD58200ABB1B4 /* MobileCoreServices.framework */,
+				B73AA33B1B3FD57100ABB1B4 /* CoreLocation.framework */,
+				B73AA3391B3FD56100ABB1B4 /* CoreGraphics.framework */,
+				B73AA3371B3FD55400ABB1B4 /* CFNetwork.framework */,
+				B73AA3351B3FD54A00ABB1B4 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DBE178D21B10EAC400A50805 = {
 			isa = PBXGroup;
 			children = (
+				B73AA34D1B3FD72700ABB1B4 /* Frameworks */,
 				B731A8A41B3BC49B00457636 /* wpid-Kpieb1m.jpg */,
 				B731A8A21B3BC47E00457636 /* human.png */,
 				DBE178DD1B10EAC500A50805 /* slide out menu */,
@@ -131,7 +199,11 @@
 		DBE178DD1B10EAC500A50805 /* slide out menu */ = {
 			isa = PBXGroup;
 			children = (
+				B73AA32F1B3F0DEB00ABB1B4 /* nextinnovation_20120904.png */,
+				B73AA32D1B3F076E00ABB1B4 /* images.jpg */,
+				B73AA32B1B3F043800ABB1B4 /* figure_talking.png */,
 				DBE178E01B10EAC500A50805 /* AppDelegate.swift */,
+				B73AA34E1B3FD86300ABB1B4 /* File.m */,
 				B76E8BE01B3559DA00D77AE0 /* ExtensionArray.swift */,
 				DBE178E21B10EAC500A50805 /* ViewController.swift */,
 				DBE179041B10EE3A00A50805 /* BackTableVC.swift */,
@@ -152,6 +224,8 @@
 				B70045281B38196200146FD0 /* Hello11.swift */,
 				B7C14FEB1B383CEF00124665 /* Hello12.swift */,
 				B73C9DF91B3BF3D2004231A9 /* Hello13.swift */,
+				B73AA3311B3FBBFF00ABB1B4 /* Hello14.swift */,
+				B73AA3331B3FBF9400ABB1B4 /* Hello15.swift */,
 				DBE1790A1B1181D700A50805 /* world.swift */,
 				DBE179081B11819E00A50805 /* Second.swift */,
 				B731A8A01B3BC19000457636 /* 121722.jpg */,
@@ -271,13 +345,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B73AA32C1B3F043800ABB1B4 /* figure_talking.png in Resources */,
 				B731A8A11B3BC19000457636 /* 121722.jpg in Resources */,
 				B731A8A31B3BC47E00457636 /* human.png in Resources */,
 				B731A8A51B3BC49B00457636 /* wpid-Kpieb1m.jpg in Resources */,
 				DBE178E61B10EAC500A50805 /* Main.storyboard in Resources */,
+				B73AA32E1B3F076E00ABB1B4 /* images.jpg in Resources */,
 				DBE178EB1B10EAC500A50805 /* LaunchScreen.xib in Resources */,
 				B7ECE7301B33065600483B65 /* Long-party-table-with-neon-napkins.jpg in Resources */,
 				DBE178E81B10EAC500A50805 /* Images.xcassets in Resources */,
+				B73AA3301B3F0DEB00ABB1B4 /* nextinnovation_20120904.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,10 +381,13 @@
 				B74E7B251B35F3D0003A5EC8 /* Hello9.swift in Sources */,
 				B748C7491B3AFBE800C62729 /* addViewController.swift in Sources */,
 				B76E8BE31B35C21F00D77AE0 /* Hello8.swift in Sources */,
+				B73AA3321B3FBBFF00ABB1B4 /* Hello14.swift in Sources */,
 				DBE178E11B10EAC500A50805 /* AppDelegate.swift in Sources */,
 				B76E8BE11B3559DA00D77AE0 /* ExtensionArray.swift in Sources */,
 				B748C74B1B3AFC0500C62729 /* DetailViewController.swift in Sources */,
+				B73AA34F1B3FD86300ABB1B4 /* File.m in Sources */,
 				DBE179051B10EE3A00A50805 /* BackTableVC.swift in Sources */,
+				B73AA3341B3FBF9400ABB1B4 /* Hello15.swift in Sources */,
 				B76E8BDF1B3551A000D77AE0 /* Hello7.swift in Sources */,
 				B73C9DFA1B3BF3D2004231A9 /* Hello13.swift in Sources */,
 				DBE179071B11813500A50805 /* Hello.swift in Sources */,
@@ -445,6 +525,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "slide out menu/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -458,6 +542,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "slide out menu/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
